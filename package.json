@@ -1,0 +1,39 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "React server side renderin with ecpress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomeczekstecc/react-serverside-express.git"
+  },
+  "keywords": [
+    "react",
+    "server",
+    "express"
+  ],
+  "author": "Tomasz Steć\\",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomeczekstecc/react-serverside-express/issues"
+  },
+  "homepage": "https://github.com/tomeczekstecc/react-serverside-express#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1"
+  }
+}
