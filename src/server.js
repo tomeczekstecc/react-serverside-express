@@ -12,5 +12,5 @@ app.use("/firstssr", ssr);
 
 const port = 3030;
 app.listen(port, () => {
-  console.log(`Lstenning on port ${port}. Go to http://localhost/${port}`);
+  console.log(`Lstenning on port ${port}. Go to http://localhost:${port}`);
 });
